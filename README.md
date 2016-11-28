@@ -23,8 +23,11 @@
    - Using External : Bootstrap ADMIN LTE Template Responsive Web for admin page  (https://almsaeedstudio.com/preview)
 
 ## 3. Capture Images
+![boardmain](https://cloud.githubusercontent.com/assets/21224368/20658284/05bb6544-b57f-11e6-8020-d407adfce098.JPG)
 
+![boarddetail](https://cloud.githubusercontent.com/assets/21224368/20658286/05bc55c6-b57f-11e6-9d0a-60dd191ad652.JPG)
+
+![boardmodify](https://cloud.githubusercontent.com/assets/21224368/20658285/05bb8db2-b57f-11e6-9556-b007cedb6610.JPG)
    		
-
 ## 4. Reference
 코드로 배우는 스프링 웹 프로젝트 (남가람북스)
