@@ -16,6 +16,7 @@
 
 ## 2. Development Environment
    - IDE : STS (Spring Tool Suite) 3.8.1.RELEASE
+   - Spring Version : Spring 4.3.3.RELESE
    - Platform : Eclipse Neon(4.6)
    - OS : Window7 (64 bit)
    - Language : Java 1.8
