@@ -1,0 +1,44 @@
+CREATE DATABASE board;
+
+USE board;
+
+------------------------------------
+
+CREATE TABLE tbl_board(
+bno int NOT NULL auto_increment,
+title varchar(200) NOT NULL,
+content text NULL,
+writer varchar(50) NOT NULL,
+regdate TIMESTAMP NOT NULL now(),
+viewcnt int DEFAULT 0,
+PRIMARY KEY (BNO)
+); 
+
+------------------------------------
+
+CREATE TABLE tbl_member (
+userid varchar(50) NOT NULL,
+userpw varchar(50) NOT NULL,
+username varchar(50) NOT NULL,
+email varchar(50),
+regdate TIMESTAMP default current_timestamp,
+updatedate timestamp,
+PRIMARY KEY (userid)
+);
+
+------------------------------------
+
+CREATE TABLE tbl_reply (
+rno int NOT NULL AUTO_INCREMENT,
+bno int not null default 0,
+replytext varchar(1000) not null,
+replyer varchar(50) not null,
+regdate timestamp not null default now(),
+updatedate timestamp,
+PRIMARY KEY (rno)
+);
+
+------------------------------------
+
+alter table tbl_reply add constraint fk_board 
+foreign key (bno) references tbl_board (bno);
